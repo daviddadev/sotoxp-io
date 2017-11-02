@@ -31,6 +31,17 @@ h6 {
    text-transform: uppercase
 }
 
+hr.star-line {
+   max-width: 90%;
+   margin: 25px auto 30px;
+   padding: 0;
+   text-align: center;
+   border: none;
+   color: black;
+   border-color: #2c3e50;
+   border-top: solid 5px
+}
+
 hr.star-light,
 hr.star-primary {
    max-width: 250px;
@@ -39,6 +50,16 @@ hr.star-primary {
    text-align: center;
    border: none;
    border-top: solid 5px
+}
+
+hr.star-line:after {
+   font-size: 2em;
+   position: relative;
+   top: -.8em;
+   display: inline-block;
+   padding: 0 .25em;
+   color: black;
+   background-color: #fff
 }
 
 hr.star-light:after,
@@ -390,6 +411,55 @@ header.masthead .intro-text .skills {
    opacity: 0
 }
 
+/* Supporting Section */
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center
+}
+
+.supporting img {
+  height: 32px
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 2em;
+  text-transform: uppercase
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 40px
+}
+
+a.btn-default {
+  border: 1px solid #673AB7;
+  color: #673AB7;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  display: inline-block;
+  margin-bottom: 20px    
+}
+
+a.btn-main:hover {
+  transition: background 4s;
+  background-color: #9575CD;
+  /*color: #FFFFFF;*/
+  text-decoration: none
+}
+
+.clearfix {
+  clear: both
+}
+/* End Supporting Section */
+
 .floating-label-form-group {
    position: relative;
    margin-bottom: 0;
@@ -482,7 +552,7 @@ footer .footer-below {
 .btn-outline:active,
 .btn-outline:focus,
 .btn-outline:hover {
-   color: #18bc9c;
+   color: coral;
    border: solid 2px #fff;
    background: #fff
 }
