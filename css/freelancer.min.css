@@ -538,6 +538,27 @@ footer .footer-below {
    background-color: #546E7A
 }
 
+#sendBtn {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   font-weight: 700;
+   color: #fff;
+   border-color: coral;
+   background-color: coral
+}
+
+#sendBtn.focus,
+#sendBtn:focus {
+   color: #fff;
+   border-color: #0a4b3e;
+   background-color: #128f76
+}
+
+#sendBtn:hover {
+   color: #fff;
+   border-color: #b25838;
+   background-color: #b25838
+}
+
 .btn-outline {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    font-size: 20px;
