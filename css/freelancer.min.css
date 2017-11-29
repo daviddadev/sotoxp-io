@@ -251,14 +251,14 @@ header.masthead {
 header.masthead img {
    display: block;
    margin: 0 auto 20px;
-   border: solid 2px #fff;
+   border: solid 3px #fff;
    border-radius: 50%;
    box-shadow: 0 6px 10px 0 #000000;
-   transition: all 1.4s
+   transition: all 1.6s
 }
 
 header.masthead img:hover {
-   transform: scale(1.15)
+   transform: scale(1.10)
 }
 
 header.masthead .intro-text .name {
