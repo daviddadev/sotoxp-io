@@ -16,7 +16,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-   color: coral;
+   color: #DD3C43;
    outline: 0
 }
 
@@ -79,12 +79,12 @@ hr.star-light {
 
 hr.star-light:after {
    color: #fff;
-   background-color: #0097A7
+   background-color: #DD3C43
 }
 
 hr.about-me:after {
    color: #fff;
-   background-color: coral
+   background-color: #DD3C43
 }
 
 hr.star-primary {
@@ -112,7 +112,7 @@ section h2 {
 section.success {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    color: #fff;
-   background: coral
+   background: #DD3C43
 }
 
 @media (max-width:767px) {
@@ -152,7 +152,7 @@ section.success {
    text-transform: uppercase;
    border: none;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   background: #546E7A
+   background: #3e474f
 }
 
 #mainNav a:focus {
@@ -180,7 +180,7 @@ section.success {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-   color: coral;
+   color: #DD3C43;
    outline: 0
 }
 
@@ -202,7 +202,7 @@ section.success {
 #mainNav .navbar-toggler:hover {
    color: #fff;
    border-color: #fff;
-   background-color: #0097A7
+   background-color: #DD3C43
 }
 
 @media (min-width:992px) {
@@ -222,13 +222,13 @@ section.success {
    #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
       color: #fff;
       border-radius: 3px;
-      background: coral
+      background: #DD3C43
    }
    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
       color: #fff;
-      background: coral
+      background: #DD3C43
    }
    #mainNav.navbar-shrink {
       padding-top: 10px;
@@ -245,7 +245,7 @@ header.masthead {
    padding-bottom: 50px;
    text-align: center;
    color: #fff;
-   background: #0097A7
+   background: #DD3C43
 }
 
 header.masthead img {
@@ -534,7 +534,7 @@ footer h3 {
 
 footer .footer-above {
    padding-top: 50px;
-   background-color: #546E7A
+   background-color: #3e474f
 }
 
 footer .footer-col {
@@ -543,15 +543,14 @@ footer .footer-col {
 
 footer .footer-below {
    padding: 25px 0;
-   background-color: #455A64
+   background-color: #31383f
 }
 
 #sendBtn {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    font-weight: 700;
    color: #fff;
-   border-color: coral;
-   background-color: coral
+   background-color: #DD3C43
 }
 
 #sendBtn.focus,
@@ -563,8 +562,8 @@ footer .footer-below {
 
 #sendBtn:hover {
    color: #fff;
-   border-color: #b25838;
-   background-color: #b25838
+   background-color: #b44146
+
 }
 
 .btn-outline {
@@ -572,7 +571,7 @@ footer .footer-below {
    font-size: 20px;
    margin-top: 15px;
    transition: all .3s ease-in-out;
-   color: coral;
+   color: #DD3C43;
    border: solid 2px #fff;
    background: #fff
 }
@@ -583,7 +582,7 @@ footer .footer-below {
 .btn-outline:hover {
    color: #FFF;
    border: solid 2px #fff;
-   background: coral
+   background: #DD3C43
 }
 
 .btn-primary {
@@ -656,8 +655,7 @@ fieldset[disabled] .btn-primary:hover {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    font-weight: 700;
    color: #fff;
-   border-color: coral;
-   background-color: coral
+   background-color: #DD3C43
 }
 
 .btn-success.focus,
@@ -669,8 +667,8 @@ fieldset[disabled] .btn-primary:hover {
 
 .btn-success:hover {
    color: #fff;
-   border-color: #b25838;
-   background-color: #b25838
+   border-color: #DD3C43;
+   background-color: #DD3C43
 }
 
 .btn-success.active,
