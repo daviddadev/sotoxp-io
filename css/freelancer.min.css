@@ -70,9 +70,9 @@ hr.star-primary:after {
    top: -.8em;
    display: inline-block;
    padding: 0 .25em;
-   content: '\f260'
+   content: '\f2dc'
 }
-
+/* Original content: \f260*/
 hr.star-light {
    border-color: #fff
 }
@@ -421,25 +421,28 @@ header.masthead .intro-text .skills {
 
 /* Supporting Section */
 .supporting {
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 80px;
   text-align: center
 }
 
 .supporting img {
-  height: 32px
+   margin-bottom: 10px;
+   height: 32px
 }
 
 .supporting h2 {
-  font-weight: 600;
-  font-size: 2em;
-  text-transform: uppercase
+   margin-bottom: 40px;
+   font-weight: 600;
+   font-size: 2em;
+   text-transform: uppercase
 }
 
 .supporting p {
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
+  margin-top: 20px;
   margin-bottom: 40px
 }
 
