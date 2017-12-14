@@ -1,5 +1,6 @@
+/* switch #2C3E50 scroll button to full dark #*/
 body {
-   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
    overflow-x: hidden
 }
 
@@ -26,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 700;
    text-transform: uppercase
 }
@@ -147,7 +148,7 @@ section.success {
 }
 
 #mainNav {
-   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 700;
    text-transform: uppercase;
    border: none;
@@ -262,7 +263,7 @@ header.masthead img:hover {
 }
 
 header.masthead .intro-text .name {
-   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-size: 2em;
    font-weight: 700;
    display: block;
@@ -599,21 +600,21 @@ footer .footer-below {
 .btn-primary:focus {
    color: #fff;
    border-color: #000;
-   background-color: #1a252f
+   background-color: #31383f
 }
 
 .btn-primary:hover {
    color: #fff;
-   border-color: #161f29;
-   background-color: #1a252f
+   border-color: #31383F;
+   background-color: #31383f
 }
 
 .btn-primary.active,
 .btn-primary:active,
 .open>.btn-primary.dropdown-toggle {
    color: #fff;
-   border-color: #161f29;
-   background-color: #1a252f
+   border-color: #31383F;
+   background-color: #31383f
 }
 
 .btn-primary.active.focus,
